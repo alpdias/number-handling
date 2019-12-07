@@ -1,3 +1,7 @@
+'''
+@Autor: Paulo https://github.com/alpdias
+'''
+# Função para separa milhares de acordo com padrão do local.
 def Milhares(numero=0):
     """
     -> Função para tratar o número separando por milhares no padrão do local.
