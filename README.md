@@ -12,6 +12,8 @@ PT-BR </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
+#Python Number Handling
+
 Number handling using Python "locale" library.
 
 Basic explanation of how to use python's "locale" library.
