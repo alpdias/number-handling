@@ -2,7 +2,7 @@
 @Autor: Paulo https://github.com/alpdias
 '''
 # Função para separa milhares de acordo com padrão do local.
-def Milhares(numero=0):
+def milhares(numero=0):
     """
     -> Função para tratar o número separando por milhares no padrão do local.
     :param numero: Número para ser formatado.
@@ -15,4 +15,4 @@ def Milhares(numero=0):
 x = 1000
 y = 2000.56
 z = x + y
-print(f'{Milhares(z)}')
+print(f'{milhares(z)}')
