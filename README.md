@@ -12,7 +12,7 @@ PT-BR </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-#Python Number Handling
+# Python Number Handling
 
 Number handling using Python "locale" library.
 
