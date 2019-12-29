@@ -4,7 +4,7 @@ Explicação básica de como utilizar a bibiloteca "locale" do python. Utilizada
 
 Python 3.7.4 </br>
 Microsoft VSCode 1.38.1 </br>
-Coding: -&lowast;- coding: utf-8 -&lowast;- </br>
+Codificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 PT-BR </br>
 
 ----------------------------------------------------------------------------------------------------------------------------------
