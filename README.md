@@ -7,6 +7,10 @@ Microsoft VSCode 1.38.1 </br>
 Codificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 pt-BR </br>
 
+<strong>Módulos Python</strong>
+
+> pip install locale
+
 ----------------------------------------------------------------------------------------------------------------------------------
 
 # Python number handling
@@ -17,5 +21,9 @@ Python 3.7.4 </br>
 Microsoft VSCode 1.38.1 </br>
 Coding: -&lowast;- coding: utf-8 -&lowast;- </br>
 pt-BR </br>
+
+<strong>Python modules</strong>
+
+> pip install locale
 
 -----------------------------------------------------------------------------------------------------------------------------------
