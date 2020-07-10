@@ -2,10 +2,10 @@
 @Autor: Paulo https://github.com/alpdias
 '''
 
-# Utilizando o método 'locale' para tratar números de acordo com padrão do local
+# Utilizando o método 'locale' para tratar números de acordo com o padrão do local
 def tratamento(numero=0):
     """
-    -> Função para tratar o número separando por milhares no padrão do local
+    -> Função para tratar o número de acordo com o padrão do local
     :param numero: Número para ser formatado
     :return: Número formatado
     """
