@@ -12,12 +12,12 @@ def tratamento(numero=0):
     import locale # Biblioteca de localidade por padrão
     locale.setlocale(locale.LC_MONETARY, "pt-BR") # Definições
     return locale.currency(numero, grouping=True) # Mostra a variável formatada no padrão escolhido
-    '''
+    """
     Parâmetros do metodo:
     locale.LC_MONETARY -> Recebe a catergoria a ser utilizada (no caso valores monetários)
     "pt-BR" -> Recebe o formato do local a ser utilizado (em sistemas UNIX pode ser achado o locale com o comando "locale -a")
     grouping=True -> Agrupar o valor por casas decimais
-    '''
+    """
 
     
 print('')
