@@ -3,7 +3,6 @@
 Explicação básica de como utilizar a bibiloteca "locale" do python. Utilizada nesse código para tratar números de acordo com o padrão "pt-BR".
 
 Python 3.7.4 </br>
-Microsoft VSCode 1.38.1 </br>
 Codificação: -&lowast;- coding: utf-8 -&lowast;- </br>
 pt-BR </br>
 
