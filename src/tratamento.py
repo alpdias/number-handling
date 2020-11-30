@@ -2,27 +2,38 @@
 @Autor: Paulo https://github.com/alpdias
 '''
 
-# Utilizando o método 'locale' para tratar números de acordo com o padrão do local
+# biblioteca de localidade por padrao
+import locale 
+
 def tratamento(numero=0):
+    
     """
-    -> Função para tratar o número de acordo com o padrão do local
-    :param numero: Número para ser formatado
-    :return: Número formatado
+    -> Função para tratar o número de acordo com o padrão do local\
+    \n:param numero: Número para ser formatado\
+    \n:return: Número formatado\
     """
-    import locale # Biblioteca de localidade por padrão
-    locale.setlocale(locale.LC_MONETARY, "pt-BR") # Definições
-    return locale.currency(numero, grouping=True) # Mostra a variável formatada no padrão escolhido
+    
+    locale.setlocale(locale.LC_MONETARY, "pt-BR") # definiçoes
+    
+    return locale.currency(numero, grouping=True) # mostra a variavel formatada no padrao escolhido
+
     """
-    Parâmetros do metodo:
-    locale.LC_MONETARY -> Recebe a catergoria a ser utilizada (no caso valores monetários)
-    "pt-BR" -> Recebe o formato do local a ser utilizado (em sistemas UNIX pode ser achado o locale com o comando "locale -a")
-    grouping=True -> Agrupar o valor por casas decimais
+    parametros do metodo:
+    
+    locale.LC_MONETARY -> catergoria a ser utilizada (no caso valores monetarios)
+    
+    "pt-BR" -> formato do local a ser utilizado (em sistemas UNIX pode ser achado o locale com o comando "locale -a")
+    
+    grouping=True -> agrupar o valor por casas decimais
     """
 
     
 print('')
+
 x = 1000
 y = 2000.56
 z = x + y
+
 print(f'{tratamento(z)}') # Resultado formatado no padrão 'pt-BR'
+
 print('')
